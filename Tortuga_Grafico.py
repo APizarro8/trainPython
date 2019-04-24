@@ -3,9 +3,12 @@
 #Autor: Alicia Pizarro
 #Fecha: 15/11/2017
 
+##IMPORTACIÓN DE MÓDULOS 
 import matplotlib.pyplot as plt
 import numpy as np
 
+#######################################################################
+## DATOS A GRAFICAR 
 lista1 = [11,2,3,15,8,13,21,34]
 plt.plot(lista1)
 plt.show()
@@ -15,3 +18,5 @@ plt.plot(lista1)   # Dibuja el gráfico
 plt.title("Título")   # Establece el título del gráfico
 plt.xlabel("abscisa")   # Establece el título del eje x
 plt.ylabel("ordenada")   # Establece el título del eje y
+
+#######################################################################
