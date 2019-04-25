@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#Ejercicio 7 
 #Propósito: Realizar un programa que un menú que indique al usuario las diferentes opciones los parámetros del 
 #elipsoide correspondiente. 
 #Autor: Alicia Pizarro
