@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
-#Práctica 5
-#Archivo: Ejer_1.py
 #Autor: Alicia Pizarro
 #Fecha: 05 de diciembre de 2017
 #Descripción: Almacenar  los nombres de todos sus archivos junto con su tamaño en un diccionario e imprimir el contenido. 
 
+## IMPORTACIÓN DE LIBRERÍAS
 import sys
 import os
 
-
-#sys.argv[1] Directorio elegido
+##########################################################################################################################
+##sys.argv[1] Directorio elegido
 path = 'C:\\Users\\Alicia\\Desktop\\MASTER_TIG\\Primer cuatrimestre\\Funtos_analisis\\Redes\\AV_Pizarro_Alicia_P3'
 
-diccionario = {}
+diccionario = {} # CREAR DICCIONARIO 
     
 lstfiles = os.listdir(path) #Listar archivos en el direcctorio
 
@@ -26,4 +25,5 @@ for archivos in lstfiles:
 for clave in diccionario:
         print 'El archivo {0} tiene un tamaño de {1} bytes'.format (clave, diccionario[clave])
 
-
+######################################################### FINISH #########################################################
+##########################################################################################################################
